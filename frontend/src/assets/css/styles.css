@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+:root {
+    --color-primary: #FF8400;
+}
+
+html, body {
+    height: 100%; /* altura */
+    font-family: "Ubuntu", sans-serif; /* a fonte é a ubunto q foi importada do goole, se n achar usa a outra*/
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer { /*rodapé*/
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.bg-primary { /* estilos do tema básico do bootstrap  c borda*/
+    background-color: var(--color-primary) !important;
+}
+
+.text-primary { /* estilos do tema básico do bootstrap texto*/
+    color: var(--color-primary) !important;
+}
